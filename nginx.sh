@@ -1,5 +1,5 @@
 #!/bin/bash
 yum update
-yum install nginx -y && \
-#service stop apache2
-service restart nginx
+yum install apache2 -y && \
+service restart apache2
+#service restart nginx
