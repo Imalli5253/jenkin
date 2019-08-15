@@ -3,4 +3,5 @@ yum update
 yum install httpd -y
 service httpd enable 
 service httpd start
-#service restart nginx
+service restart nginx
+echo "Success git Hook"
